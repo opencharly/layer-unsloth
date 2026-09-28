@@ -1,7 +1,5 @@
-version: 2026.232.0520
 unsloth:
     candy:
-        version: 2026.144.1443
         description: |
             Patched vLLM nightly runtime layered into the pixi env for Unsloth LLM fine-tuning (pip-only, requires pixi env from parent layer)
             Layers a vLLM cu130 nightly wheel into the parent layer's pixi
