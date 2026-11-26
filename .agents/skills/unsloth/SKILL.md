@@ -39,15 +39,9 @@ This candy has **no pixi.toml** and **no depends**. It installs pip packages int
 3. **opentelemetry runtime deps** (`pip install`) — pixi resolver conflict prevents solving these via conda-forge
 4. **vLLM torch.compile patch** (`patch_vllm_size_nodes.py`) — fixes `_decompose_size_nodes` bug where `getitem` users and `x.size(dim)` patterns crash during model compilation (upstream: vllm-project/vllm#38360)
 
-## Used In Candies (via `candy:` field)
-
-
 ## Related Candies
 
 - `/charly-languages:python-ml` — Core ML environment (Tier 2, uses vllm pip install in its own tasks: instead)
-
-## Used In Boxes
-
 
 ## When to Use This Skill
 
