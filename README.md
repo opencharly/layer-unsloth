@@ -61,8 +61,6 @@ than the unpatched upstream code.
 ## Related
 
 - Owning skill: `/charly-jupyter:unsloth`
-- `/charly-jupyter:jupyter-ml` — Tier 2 parent (`candy: [llama-cpp, unsloth, jupyter-mcp]`)
-- `/charly-jupyter:unsloth-studio` — Tier 2 parent (`candy: [llama-cpp, unsloth]`)
 - `/charly-jupyter:llama-cpp` — sibling Tier 1 candy (llama.cpp binaries)
 - `/charly-languages:python-ml` — core ML environment (Tier 2)
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
